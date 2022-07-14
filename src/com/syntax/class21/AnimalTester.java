@@ -1,0 +1,11 @@
+package com.syntax.class21;
+
+public class AnimalTester {
+    public static void main(String[] args) {
+        Dog dog = new Dog("Tom","Red","German",25);
+        dog.printInfo();
+
+        Cat c=new Cat("Buttercup","Orange","Persian",7);
+        c.printInfo();
+    }
+}

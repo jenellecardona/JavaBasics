@@ -1,0 +1,33 @@
+Constructors
+is a block of code that is used to construct objects.
+Constructors help initialize object in a cleaner more readable way
+They are better than methods because they are called automatically when we create an object
+Most if the time fields are private and because of this reason we can't access them outside the class in which they
+are declared and can't initialize them.
+
+How to use Constructors :
+We create the constructor by writing block of code that has same name as class name.
+When we create the object of that class it is called automatically
+
+
+RULES:
+1. Constructors don't have return types, even void.
+2. constructors should have class name
+3. Constructors can have access modifiers like public private protected.
+4. Constuctors can't have non access modifiers like static, final, syncronized
+5. Default constructor is provided by java if we don't write one.
+6. When we create the object of a class then a constructor  is called. For example if the class name is Dog;
+Dog dog1=new *Dog();   *is us calling the constructor
+7.
+8. We can call the constructor of a class by using "this" keyword with parenthesis.
+This() We can pass parameters and java will decide based on these parameters which constructors to call.
+9. Whenever we have same name variables as instance variable and local variables this keyword can be used to help
+us resolve the conflict between local and instance variable.
+class human(){
+String name="sleeping Zombie";
+void(){
+String name="wake up zombie";
+System.out.println("name);
+}
+}
+

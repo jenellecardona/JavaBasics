@@ -1,0 +1,7 @@
+Inheritance
+
+You can only inherit from one parent class
+
+What is inheritance
+Inheritance is a mechanism in Java through which we can get the properties and methods from the parent class inside the
+child.

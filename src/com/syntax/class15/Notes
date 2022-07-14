@@ -1,0 +1,63 @@
+Rules:
+void ==> void is a return type and it is a must if you want to return a specific data write
+the same of that data type like for int we write int for String
+we write String and if we don't want to return anything we write void
+when we write a void we can't assign a method call toa variable.
+
+Methods with void variable type can't be assigned to variables
+add=>next we write the name of the method. Which can be anything
+ but it should follow the rules for giving a name to a variable.
+ ()=> we specify the parameters here, we can pass any data type inside these parenthesis
+
+ add(int x, int y)=> This part with the name of the method and its parameters is called signature of a method
+ void add(int x, int y);
+
+
+** To exclude a project or class so that you can exe code even with another class/program having errors:
+ shift+shift->type "excludes" and select the excludes option
+
+Types of variables in JAVA (3 types):
+1.) Local : if a variable is inside a method, a loop, a switch statement, a if else condition or inside perimeters;
+it is called a local variable.
+2.) Instance : if a variable is inside the class but outside of any block of code like method, loop, switch statement,
+if else statement; it is called an instance variable.
+3.) Static : if an instance variable has a static key word with it then it is called a static variable
+
+Why learn about different types of variables :
+1.) it helps us reduce the amount of ram that our applications will be using when it will be running
+2.) with the help of these variables we can pass information between methods of class
+3.) Local variable occupy the memory for the shortest of time. As soon as your method is done executing
+they are destroyed by a special program called garbage collector
+
+How to use these :
+Local : create inside a block of code
+
+Pros vs Cons
+
+Local variables:
+Pros- They occupy the memory for the shortest period of time. Always try to use the local variable whenever possible.
+Cons-They are very limited in the scope. Meaning I can not access it outside of that method or that block of code.
+Instance Variables:
+Pros- They have a broader scope compared to the local variables. Meaning we can access them in all the methods of
+that class.They can not be accessed outside of the method in which they are created.
+Cons- They occupy space in your RAM for longer periods of time.
+Static Variables:
+Pros- We can call static variables without creating an object of a class.
+We can share a single variable between all the objects of a class
+Con-Stays in the memory for longest period of time
+
+
+Local Variable :
+Instance variable: They are located inside the class but outside a block of code
+Advantages
+instance variable are accessible everywhere in a class in all the blocks of code inside that class
+Disadvantages: They keep on occupying the memory for a longer period of time.
+Static variable:
+If we have an instance variable with the static keyword then it is called a Static variable
+Advantages
+They have the highest scope available even outside of an object and are class level variables.
+That is why it does not matter how many objects are created from that class, only one variable is created.
+Disadvantages
+They occupy the memory for the longest time
+They can hold only a single value for all the objects
+

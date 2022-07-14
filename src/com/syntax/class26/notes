@@ -1,0 +1,66 @@
+What is an interface:
+Interface is a contract that is similar to a class but all the fields inside a class are public static final,
+also referred to as constance. And all the methods by default are public.
+
+Public Static Final = Constants
+
+Why should we learn about interfaces:
+We cam implement abstraction using interfaces.
+
+Why use interfaces over abstraction?
+When classes are logically connected to each other and we want to have instance fields and implemented methods as well
+while doing abstraction we should go with abstract class.
+~ So we can inherit
+~ in interface methods are all abstract
+
+How can I use an interface:
+We use the interface keyword instead of a class and we can start creating abstract methods.
+
+Rules:
+1. All the fields inside an interface are public static and final.
+2. No instance fields means no constructor is required
+3. No instance methods in an interface and all the methods by default are abstract.
+4. When we implement the methods from the interface we use implements keyword.
+5. Multiple inheritance is supported by interfaces in Java.
+6. Am interface can extend another interface.
+7. Variable in interfaces can't be private.
+
+---------------------------------------------------------------------------------
+Encapsulation in Java:
+Is a mechanism that provides us security. If we use encapsulation we can have more security.
+Its a mechanism to achieve security
+
+How should we use Encapsulation:
+1. Make your variables as private.
+2. create setter and getter methods to read and write these fields.
+
+-----------------------------------------------------------------------------------
+Whenever we have to store more than 3 values of the same type which are also logically connected we should create an
+array for them.
+
+Basic unit to store data is a variables.
+It's easy to access the value by variable name we don;t need to concern ourselves with knowing the indexes.
+Problems with variables:
+
+1. They can only store one value at a time.
+2. if we have to store more than one value using variables we have to declare more variable.
+
+Arrays:
+
+Arrays can hold multiple values in a single variable we then use the indexes to access those values.
+
+Benefits of Array:
+1. Arrays are the fastest data structure when it comes to processing the data
+2. Arrays occupies 4 times less memory than an arrayList
+
+Problem with Arrays:
+1. They are fixed in size which means once we have created the array we can't modify it's size.
+2. No built in methods in arrays like add remove findIndex etc.
+
+ArrayList:
+<> -- Diamond Operator
+add()--add element to an arrayList
+remove()--
+
+
+

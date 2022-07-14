@@ -1,0 +1,44 @@
+What is method overriding in java:
+When the same method with the same header exist in parent and child class. We will it method overwriting.
+
+Why we should use override a method:
+if we inherit from a class all the methods which are not private they are inherited in the child class.
+Now if we don't like some of these methods maybe because the consume more internet bandwidth or consume a lot
+of CPU or uses a lot of memory we can override them in the child class.
+
+How can we use MethodOverridding:
+1. We must first inherit from a class
+2. We can redeclare the method with the same header and provide the body of our choice
+
+Example:
+clas parent{
+void eat(){
+System.out.println("I like to eat beef");
+}
+void sleep(){
+System.out.println("I like to sleep 8 hours a day");
+}
+}
+class Child extends Parent{
+void eat(){
+System.out.println("I like to eat Mutton);
+}
+
+
+Rules:
+1. You must have an inheritance relationship(super+base class).
+2. Method in the parent and child class must have same headers but they can be different in terms of access modifiers
+and in very rare conditions in terms of return type.
+3. We can't change the access modifiers from public to protected or default. But we can do it in reverse order.
+4. we can't override constructors because they are also not inherited
+5. If a methis is static we use a different terminology its called method redeclaration instead of overriding.
+
+=======================================================================
+Polymorphism
+
+
+
+====
+final when used with a class meaning no one can inherit that class
+final used with a method means no one can override that method
+final used with an instance variable means that the value can not be reassigned.

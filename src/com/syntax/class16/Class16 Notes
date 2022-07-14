@@ -1,0 +1,2 @@
+If we know that a value will stay the same we should always use a static variable.
+It will one use one memory space

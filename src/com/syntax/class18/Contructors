@@ -1,0 +1,22 @@
+What is a constructor:
+A constructor is a special block of code that helps us give an initial value to the fields of a class
+ Initialization of object or instance.
+
+ Why we should use a constructor
+ 1.)When we use the constructor to initialize the object it looks more readable and clear
+ 2.) if the fields of a class are private its not possible to access them outside a class without constructor
+ or a method which means we can't initialize them without a method or a constructor
+ 3.)we can enforce rules like what kind of values are assigned to variables with the help of contructors
+ 4.)if we want to make sure that some lines of the code should always be executed when the object
+  of a class is created we can out that code inside the contractor
+  How to use constructors
+  we create constructors inside the class and when the object of that class is created the constructor
+  is executed automatically
+
+
+Rules
+1.) Constructors don't have return types not even void. (i.e String name(){block of code})
+2.) The name of the contractor should always be the same as the name of the class
+3.) Constructors can't be created with static keyword
+4.) We can use any access modifiers with constructors
+5.) If we don't create a constructor in a class a default constructor with zero parameters is created by compiler()
